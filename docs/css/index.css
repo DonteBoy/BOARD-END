@@ -1,0 +1,204 @@
+html,
+body {
+    background: #01000F;
+    padding: 0;
+    border: 0;
+    /*запрет 1*/
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -khtml-user-select: none;
+    /*запрет 1*/
+}
+.ff {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24;
+}
+.ff-1 {font-family: 'Ubuntu Mono',Regular 400;}
+.ff-2 {font-family: 'Ubuntu Mono',Bold 700;}
+a {
+    text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.p-color {
+    text-decoration: none;
+    color: white;
+}
+.p-color2 {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.direction {
+    direction: none;
+    pointer-events: none;
+}
+
+
+/*font-size*/
+
+
+/*---------------------------------------*/
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    /* фоновый цвет */
+    background: #01000F;
+    z-index: 1001;
+}
+
+.preloader__image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+}
+
+@keyframes preloader-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loaded_hiding .preloader {
+    transition: 1.5s opacity;
+    opacity: 0;
+}
+
+.loaded .preloader {
+    display: none;
+}
+
+
+/*---------------------------------------*/
+
+.-BOARD-END- {
+    pointer-events: none;
+}
+
+.header-aside-main-footer {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.header-aside-main-footer-img {
+    position: absolute;
+    width: 1320px;
+    left: calc(50% - 1325px/2);
+    opacity: 0.1;
+    top: 0px;
+
+    
+}
+
+.sliders-img {
+    height: 30px;
+    width: 30px;
+    pointer-events: none;
+}
+
+.sliders-btn {
+    position: absolute;
+    left: auto;
+    right: 0;
+    background: none;
+    border: none;
+    direction: none;
+}
+
+.section-img-bg {
+    position: absolute;
+    width: 596px;
+    height: 325px;
+    left: calc(50% - 596px/2);
+    top: 141px;
+    pointer-events: none;
+}
+
+.btn:focus,
+.btn:active {
+    box-shadow: none !important;
+}
+
+.dropdown-toggle-fb {
+    color: #01000F;
+}
+.section-skills {
+    position: relative;
+    top: 531px;
+    left: calc(50% - 750px/2);
+}
+.img-ski {
+    position: relative;
+    left: 70px;
+    margin-left: 20px;
+    height: 130px;
+    width: 130px;
+    pointer-events: none;
+}
+.btn-ski {
+    position: relative;
+    top: 600px;
+    left: calc(50% - 180px/2);
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+   
+}
+
+.sentence{
+    position: absolute;
+    top: 904px;
+    left: calc(50% - 1300px/2);
+}
+.title-sentence {
+    color: white;
+}
+.sentence-card {
+    width: 400px;
+   }
+.sentence-2 {
+    position: absolute;
+    top: 950px;
+    left: calc(50% - 400px/2);
+}
+
+.sentence-card-2 {
+    width: 400px;
+}
+
+
+.sentence-3 {
+    position: absolute;
+    top: 950px;
+    left: calc(50% + 500px/2);
+}
+
+.sentence-card-3 {
+    width: 400px;
+}
+
+.sentence-button-group {
+    position: absolute;
+    top: 1430px;
+    left: calc(50% - 180px/2);
+}
